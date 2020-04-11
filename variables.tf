@@ -165,7 +165,7 @@ variable "root_volume_type" {
 variable "root_volume_size" {
   type        = number
   description = "Size of the root volume in gigabytes"
-  default     = 10
+  default     = 150
 }
 
 variable "root_iops" {
